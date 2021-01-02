@@ -1,5 +1,5 @@
-import {User} from './user/user.resolver'
+import {userResolver} from './user/user.resolver'
 
-const resolvers = [User]
+const resolvers = [userResolver]
 
 export default resolvers
