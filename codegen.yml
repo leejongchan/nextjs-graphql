@@ -1,0 +1,7 @@
+schema: packages/server/graphql/**/*.gql
+documents: packages/client/graphql/**/*.ts
+generates:
+  packages/server/generated/types.ts:
+    plugins:
+      - typescript
+      - typescript-operations
