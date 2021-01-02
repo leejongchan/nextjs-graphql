@@ -1,5 +1,3 @@
-// import {User} from "server/generated/types";
-
 export const userResolver = {
   Query: {
     user(_, args, context, info) {
