@@ -5,13 +5,8 @@ const Index = () => {
   return (
       <ul>
         <li>
-          <Link href="/user/userList">
+          <Link href={"/user/userList"}>
             <a>UserList</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/user/user">
-            <a>User</a>
           </Link>
         </li>
       </ul>
