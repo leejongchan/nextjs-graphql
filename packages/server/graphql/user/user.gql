@@ -9,7 +9,7 @@ type UserList {
 }
 
 type Query {
-  user(id: ID!, name: String!, age: Int!): User
+  user(id: ID!): User
 
   userList: UserList
 }

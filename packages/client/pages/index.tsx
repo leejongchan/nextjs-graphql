@@ -1,11 +1,20 @@
 import React from "react";
-import User from "./user/user";
+import Link from 'next/link'
 
 const Index = () => {
   return (
-      <>
-        <User />
-      </>
+      <ul>
+        <li>
+          <Link href="/user/userList">
+            <a>UserList</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/user/user">
+            <a>User</a>
+          </Link>
+        </li>
+      </ul>
   )
 }
 
