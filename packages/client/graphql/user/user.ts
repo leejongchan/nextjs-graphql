@@ -9,3 +9,15 @@ export const GET_USER = gql`
     }
   }
 `
+
+export const GET_USER_LIST = gql`
+  query getUserList {
+    userList {
+      users {
+        id
+        name
+        age
+      }
+    }
+  }
+`

@@ -4,6 +4,12 @@ type User {
   age: Int!
 }
 
+type UserList {
+  users: [User!]
+}
+
 type Query {
   user(id: ID!, name: String!, age: Int!): User
+
+  userList: UserList
 }

@@ -6,6 +6,22 @@ export const userResolver = {
         name: args.name,
         age: args.age
       }
+    },
+    userList(_) {
+      return {
+        users: [
+          {
+            id: '1',
+            name: 'jongchan',
+            age: 29
+          },
+          {
+            id: '2',
+            name: 'taewoong',
+            age: 28,
+          }
+        ]
+      }
     }
   }
 }
